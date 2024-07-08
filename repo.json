@@ -1,7 +1,6 @@
 [
     {
         "name":"Python",
-        "id":"python",
         "get-version":"python --version",
         "description":"A popular interpreted programming language.",
         "source":"https://www.python.org/ftp/python/3.12.4/python-3.12.4.exe"
@@ -9,7 +8,6 @@
 
     {
         "name":"Node.js",
-        "id":"node.js",
         "get-version":"node -v",
         "description":"A popular Javascript runtime.",
         "source":"https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi"
