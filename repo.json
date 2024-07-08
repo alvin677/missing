@@ -9,9 +9,9 @@
 
     {
         "name":"Node.js",
-        "version":"20.15.0",
+        "version":"latest",
         "get-version":"node -v",
         "description":"A popular Javascript runtime.",
-        "installer":"nodejs.bat"
+        "source":"https://nodejs.org/dist/latest/win-x64/node.exe"
     }
 ]
