@@ -10,3 +10,5 @@ packages that need to be added (cause some suck to manually install):
 `libclang` `nasm` `cmake`
 
 `python` `node` `rust`
+
+`nvidia`?
