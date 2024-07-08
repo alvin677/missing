@@ -1,5 +1,5 @@
 # missing
-A package manager written in Rust, useful when tools are missing.
+A package manager written in Rust, useful when tools are *missing*.
 
 ## not yet finished gg
 example: `missing python`, tool checks if package is installed. if it is, ask to update if there's an available update.
