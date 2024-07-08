@@ -1,6 +1,0 @@
-{
-    "get-version":"python --version",
-    
-    "version":"3.12.4",
-    "description":"A popular interpreted programming language."
-}

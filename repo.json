@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Python",
+        "version":"3.12.4",
+        "get-version":"python --version",
+        "description":"A popular interpreted programming language.",
+        "installer":"python.bat"
+    },
+
+    {
+        "name":"Node.js",
+        "version":"20.15.0",
+        "get-version":"node -v",
+        "description":"A popular Javascript runtime.",
+        "installer":"nodejs.bat"
+    }
+]
