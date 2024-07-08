@@ -1,0 +1,4 @@
+[
+    {"name":"Python", "location":"./packages/python"},
+    {"name":"CMake", "location":"./packages/cmake"}
+]
