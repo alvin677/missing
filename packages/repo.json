@@ -1,4 +1,5 @@
 [
-    {"name":"Python", "location":"./packages/python"},
-    {"name":"CMake", "location":"./packages/cmake"}
+    {"name":"Python", "location":"packages/python/"},
+    {"name":"CMake", "location":"packages/cmake/"},
+    {"name":"Node.js", "location":"packages/nodejs/"}
 ]
