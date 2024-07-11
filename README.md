@@ -16,8 +16,6 @@ Then to use the package manager:
 
 **packages that need to be added (cause some suck to manually install)**
 
-`libclang` `nasm` `cmake`
-
-`python` `node` `rust`
-
+`libclang`
+`rust`
 `nvidia`?
