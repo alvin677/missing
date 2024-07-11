@@ -2,7 +2,7 @@
     "go": {
         "name":"Go",
         "get-version":"go version",
-        "description":"A popular programming language.",
+        "description":"An easy-to-use, general-purpose programming language.",
         "source":"https://golang.org/dl/go1.18.3.windows-amd64.msi"
     },
 
@@ -16,14 +16,21 @@
     "node": {
         "name":"Node.js",
         "get-version":"node -v",
-        "description":"A popular Javascript runtime.",
+        "description":"An open-source, cross-platform JavaScript runtime environment.",
         "source":"https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi"
     },
 
     "cmake": {
         "name":"CMake",
         "get-version":"cmake --version",
-        "description":"A popular build system.",
+        "description":"A cross-platform, open-source build system.",
         "source":"https://cmake.org/files/v3.26/cmake-3.26.4-windows-x86_64.msi"
+    },
+
+    "nasm": {
+        "name":"NASM",
+        "get-version":"nasm -v",
+        "description":"An assembler for the x86 architecture.",
+        "source":"https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/win64/nasm-2.15.05-win64.msi"
     }
 }
