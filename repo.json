@@ -18,5 +18,12 @@
         "get-version":"node -v",
         "description":"A popular Javascript runtime.",
         "source":"https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi"
+    },
+
+    "cmake": {
+        "name":"CMake",
+        "get-version":"cmake --version",
+        "description":"A popular build system.",
+        "source":"https://cmake.org/files/v3.26/cmake-3.26.4-windows-x86_64.msi"
     }
 }
