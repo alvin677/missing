@@ -13,7 +13,7 @@
         "source":"https://www.python.org/ftp/python/3.12.4/python-3.12.4.exe"
     },
 
-    "node": {
+    "nodejs": {
         "name":"Node.js",
         "get-version":"node -v",
         "description":"An open-source, cross-platform JavaScript runtime environment.",
