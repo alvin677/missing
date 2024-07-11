@@ -3,7 +3,7 @@
         "name":"Go",
         "get-version":"go version",
         "description":"An easy-to-use, general-purpose programming language.",
-        "source":"https://golang.org/dl/go1.18.3.windows-amd64.msi"
+        "source":"https://go.dev/dl/go1.22.5.windows-amd64.msi"
     },
 
     "python": {
