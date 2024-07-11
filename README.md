@@ -1,5 +1,5 @@
 # missing
-A package manager for Windows, written in Rust. Useful when tools are *missing*.
+A (terminal) package manager for Windows, written in Rust. Useful when tools are *missing*.
 
 **Usage**<br/>
 First off, add the executable to **PATH**:
