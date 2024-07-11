@@ -24,13 +24,13 @@
         "name":"CMake",
         "get-version":"cmake --version",
         "description":"A cross-platform, open-source build system.",
-        "source":"https://cmake.org/files/v3.26/cmake-3.26.4-windows-x86_64.msi"
+        "source":"https://github.com/Kitware/CMake/releases/download/v3.30.0/cmake-3.30.0-windows-x86_64.msi"
     },
 
     "nasm": {
         "name":"NASM",
         "get-version":"nasm -v",
         "description":"An assembler for the x86 architecture.",
-        "source":"https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/win64/nasm-2.15.05-win64.msi"
+        "source":"https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/win64/nasm-2.16.03-installer-x64.exe"
     }
 }
