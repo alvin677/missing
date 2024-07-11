@@ -1,36 +1,37 @@
 {
     "go": {
         "name":"Go",
-        "get-version":"go version",
         "description":"An easy-to-use, general-purpose programming language.",
         "source":"https://go.dev/dl/go1.22.5.windows-amd64.msi"
     },
 
     "python": {
         "name":"Python",
-        "get-version":"python --version",
         "description":"A popular interpreted programming language.",
         "source":"https://www.python.org/ftp/python/3.12.4/python-3.12.4.exe"
     },
 
     "nodejs": {
         "name":"Node.js",
-        "get-version":"node -v",
         "description":"An open-source, cross-platform JavaScript runtime environment.",
         "source":"https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi"
     },
 
     "cmake": {
         "name":"CMake",
-        "get-version":"cmake --version",
         "description":"A cross-platform, open-source build system.",
         "source":"https://github.com/Kitware/CMake/releases/download/v3.30.0/cmake-3.30.0-windows-x86_64.msi"
     },
 
     "nasm": {
         "name":"NASM",
-        "get-version":"nasm -v",
         "description":"An assembler for the x86 architecture.",
         "source":"https://www.nasm.us/pub/nasm/releasebuilds/2.16.03/win64/nasm-2.16.03-installer-x64.exe"
+    },
+
+    "rust": {
+        "name":"Rust",
+        "description":"The perfect programming language that this package manager is written in.",
+        "source":"https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe"
     }
 }
