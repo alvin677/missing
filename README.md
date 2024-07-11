@@ -12,8 +12,9 @@ Then to use the package manager:
 `./missing` - will list all available packages<br/>
 `./missing <name>` - will download the package<br/>
 
+<br/><br/>
 
-packages that need to be added (cause some suck to manually install):
+**packages that need to be added (cause some suck to manually install)**
 
 `libclang` `nasm` `cmake`
 
