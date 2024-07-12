@@ -21,3 +21,6 @@ Then to use the package manager:
 `libclang`
 `rust`
 `nvidia`?
+
+gotta uh, download files/file and store if it's not an exe or msi file<br/>
+also maybe download files to current path where you're executing from
