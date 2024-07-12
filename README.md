@@ -11,7 +11,8 @@ First off, add the executable to **PATH**:
 set PATH=%PATH%;C:\your\path\here\
 ```
 
-Then to use the package manager:
+Then to use the package manager, either download the **missing.exe** or build yourself using the rust compiler.<br/>
+After that, you can run the following commands in the Windows terminal (cmd):
 
 `./missing` - will list all available packages<br/>
 `./missing <name>` - will download the package<br/>
