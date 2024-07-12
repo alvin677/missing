@@ -37,7 +37,7 @@
 
     "qtml.css": {
         "name":"QTML",
-        "descriptioN":"A CSS framework to simplify web design.",
+        "description":"A CSS framework to simplify web design.",
         "source":"https://raw.githubusercontent.com/alvin677/QTML/main/qtml.css"
     }
 }
