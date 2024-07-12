@@ -16,6 +16,7 @@ After that, you can run the following commands in the Windows terminal (cmd):
 
 `./missing` - will list all available packages<br/>
 `./missing <name>` - will download the package<br/>
+`./missing <name> -s` - the `-s` or `--search` flag can be applied to search for a package<br/>
 
 <br/><br/>
 
