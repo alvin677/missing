@@ -41,37 +41,39 @@ fn main() {
 
     if json[package].is_null() {
         eprintln!("{}: package not found", "Error".red());
+        return;
     }
-    else {
-        println!("{}: {}..", "Installing".cyan(), json[package]["name"].as_str().unwrap());
 
-        let package_name = json[package]["name"].as_str().unwrap();
-        let filename = std::path::Path::new(json[package]["source"].as_str().unwrap());
-        let file_ext = filename.extension().unwrap().to_str().unwrap();
-        let file_source = json[package]["source"].as_str().unwrap();
+    println!("{}: {}..", "Installing".cyan(), json[package]["name"].as_str().unwrap());
 
-        if file_ext == "msi" || file_ext == "exe" {
-            std::process::Command::new("cmd")
-                .arg(format!("/C curl -o {}-installer.{} {}", package_name, file_ext, file_source))
-                .output()
-                .expect("Failed to execute command, is cURL installed?");
+    let package_name = json[package]["name"].as_str().unwrap();
+    let filename = std::path::Path::new(json[package]["source"].as_str().unwrap());
+    let file_ext = filename.extension().unwrap().to_str().unwrap();
+    let file_source = json[package]["source"].as_str().unwrap();
 
-            println!("{}: executing installer", "Downloaded".yellow());
+    if file_ext == "msi" || file_ext == "exe" {
+        println!("file is exe");
+        std::process::Command::new("cmd")
+            .arg(format!("/C curl -o {}-installer.{} {}", package_name, file_ext, file_source))
+            .output()
+            .expect("Failed to execute command, is cURL installed?");
 
-            std::process::Command::new("cmd")
-                .arg(format!("/C start {}-installer.{}", package_name, file_ext))
-                .output()
-                .expect("Failed to open installer.");
+        println!("{}: executing installer", "Downloaded".yellow());
 
+        std::process::Command::new("cmd")
+            .arg(format!("/C start {}-installer.{}", package_name, file_ext))
+            .output()
+            .expect("Failed to open installer.");
             //std::fs::remove_file(format!("{}-installer.{}", package_name, file_ext)).unwrap();
-            println!("{}: follow installer instructions", "Finished".green());
-        } else {
-            std::process::Command::new("cmd")
-                .arg(format!("/C start {}.{}", package_name, file_ext))
-                .output()
-                .expect("Failed to download file.");
-
-            println!("{}: file downloaded", "Finished".green());
-        }
+        
+        println!("{}: follow installer instructions", "Finished".green());
+    } 
+        
+    else {
+        std::process::Command::new("cmd")
+            .arg(format!("/C curl -o {}.{} {}", package_name, file_ext, file_source))
+            .output()
+            .expect("Failed to download file.");
+        println!("{}: file downloaded", "Finished".green());
     }
 }
