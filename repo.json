@@ -33,5 +33,11 @@
         "name":"Rust",
         "description":"The perfect programming language that this package manager is written in.",
         "source":"https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe"
+    },
+
+    "qtml.css": {
+        "name":"QTML",
+        "descriptioN":"A CSS framework to simplify web design.",
+        "source":"https://raw.githubusercontent.com/alvin677/QTML/main/qtml.css"
     }
 }
