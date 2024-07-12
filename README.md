@@ -1,6 +1,7 @@
 # missing
 A (terminal) package manager for Windows, written in Rust. Useful when tools are *missing*.<br/>
 *I am aware this software is absolute crap, but I did it to learn Rust better.*<br/>
+<br/>
 ![image](https://github.com/alvin677/missing/assets/112005397/206a5346-23bd-4438-ba71-ff79c2a48faa)
 
 
